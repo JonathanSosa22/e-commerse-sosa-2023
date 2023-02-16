@@ -52,3 +52,14 @@ nav img {
     margin: 0 10px;
   }
 }
+
+@media (max-width: 420px) {
+  .text-link {
+    font-size: 10px;
+  }
+  nav img {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+  }
+}
