@@ -19,10 +19,6 @@ nav {
   color: red;
 }
 
-.nav_text {
-  margin-top: 5px;
-}
-
 nav img {
   width: 50px;
   height: 50px;
@@ -53,10 +49,13 @@ nav img {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
+  .text-link {
+    font-size: 15px;
+  }
   nav img {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     margin: 0 8px;
   }
 }
